@@ -10,7 +10,7 @@ body {
 #wrapper {
 	position: relative;
 	min-height: 100%;
-
+	background-color: #f55; /* Same as #content */
 }
 
 #header {
@@ -21,7 +21,7 @@ body {
 #content {
 	min-height: 100%;
 	height:300px;
-	border-bottom:100px solid black; /* Height of the #footer, can use border or padding */
+	border-bottom:100px solid #f55; /* Height of the #footer, can use border or padding */
 	background-color: #f5f; /* Same as #wrapper */
 }
 
