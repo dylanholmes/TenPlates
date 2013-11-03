@@ -1,0 +1,30 @@
+/* Sticky Footer */
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	margin: 0;
+}
+
+#wrapper {
+	position: relative;
+	min-height: 100%;
+}
+
+#content {
+	margin: 0 auto;
+	padding-top: 100px;
+
+	height:300px;
+	border-bottom:100px solid #f55; /* Height of the #footer, can use border or padding */
+	background-color: #f5f; /* Same as #wrapper */
+}
+
+#footer {
+	position: absolute;
+	bottom: 0px;
+	height:100px;
+	width: 100%;
+	background-color: #ff5;
+}
